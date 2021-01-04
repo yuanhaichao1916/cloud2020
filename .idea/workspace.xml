@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee2e1c3e-b132-4357-b173-67d931ebf361" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/controller/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/test/java/reflectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/TestDesignModel-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/classes/designModel/controller/A.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/classes/designModel/controller/Algorithm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/classes/designModel/service/IComparator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/classes/designModel/service/Impl/AbstractComparator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/test-classes/reflectTest.class" afterDir="false" />
+    <list default="true" id="ee2e1c3e-b132-4357-b173-67d931ebf361" name="Default" comment="feat: designModel">
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/test/java/Shape3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/test-classes/Shape3Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/IComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/IComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/controller/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/controller/Algorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/Impl/AbstractComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/Impl/AbstractComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/controller/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/controller/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestDesignModel/target/classes/designModel/controller/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/TestDesignModel/target/classes/designModel/controller/A.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +93,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.A">
+  <component name="RunManager" selected="Application.Shape3Test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -135,6 +123,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Shape3Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Shape3Test" />
+      <module name="TestDesignModel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShapeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ShapeTest" />
       <module name="TestDesignModel" />
@@ -144,14 +140,6 @@
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="designModelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designModelTest" />
-      <module name="TestDesignModel" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -206,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Shape3Test" />
         <item itemvalue="Application.A" />
         <item itemvalue="Application.reflectTest" />
         <item itemvalue="Application.Shape2Test" />
         <item itemvalue="Application.ShapeTest" />
-        <item itemvalue="Application.designModelTest" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +229,7 @@
       <workItem from="1607673203954" duration="3797000" />
       <workItem from="1608105802654" duration="37000" />
       <workItem from="1608725121623" duration="1596000" />
-      <workItem from="1609231579838" duration="9885000" />
+      <workItem from="1609231579838" duration="14010000" />
     </task>
     <task id="LOCAL-00001" summary="feat: pom依赖">
       <created>1607614045862</created>
@@ -264,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609334730980</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: designModel">
+      <created>1609744829321</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609744829321</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,39 +301,40 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1607664107362" />
-    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1609334730385">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="-1465" y="0" key="CommitChangelistDialog2" timestamp="1609744828840">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="-1465" y="0" key="CommitChangelistDialog2/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609744828840" />
     <state x="303" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1609334730385" />
     <state width="427" height="466" key="DebuggerActiveHint" timestamp="1609234793643">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="427" height="466" key="DebuggerActiveHint/0.0.1280.800@0.0.1280.800" timestamp="1609234793643" />
-    <state width="1878" height="218" key="GridCell.Tab.0.bottom" timestamp="1609744808680">
+    <state width="1878" height="130" key="GridCell.Tab.0.bottom" timestamp="1609748478607">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="218" key="GridCell.Tab.0.bottom/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609744808680" />
+    <state width="1878" height="130" key="GridCell.Tab.0.bottom/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609748478607" />
     <state width="1238" height="218" key="GridCell.Tab.0.bottom/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1609744187192" />
     <state width="1238" height="218" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1609726405443" />
     <state width="464" height="218" key="GridCell.Tab.0.bottom/25.23.1255.777@25.23.1255.777" timestamp="1609336581488" />
-    <state width="1878" height="218" key="GridCell.Tab.0.center" timestamp="1609744808677">
+    <state width="1878" height="130" key="GridCell.Tab.0.center" timestamp="1609748478604">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="218" key="GridCell.Tab.0.center/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609744808677" />
+    <state width="1878" height="130" key="GridCell.Tab.0.center/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609748478604" />
     <state width="1238" height="218" key="GridCell.Tab.0.center/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1609744187182" />
     <state width="1238" height="218" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1609726405438" />
     <state width="464" height="218" key="GridCell.Tab.0.center/25.23.1255.777@25.23.1255.777" timestamp="1609336581486" />
-    <state width="1878" height="218" key="GridCell.Tab.0.left" timestamp="1609744808676">
+    <state width="1878" height="130" key="GridCell.Tab.0.left" timestamp="1609748478602">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="218" key="GridCell.Tab.0.left/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609744808676" />
+    <state width="1878" height="130" key="GridCell.Tab.0.left/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609748478602" />
     <state width="1238" height="218" key="GridCell.Tab.0.left/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1609744187158" />
     <state width="1238" height="218" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1609726405437" />
     <state width="464" height="218" key="GridCell.Tab.0.left/25.23.1255.777@25.23.1255.777" timestamp="1609336581484" />
-    <state width="1878" height="218" key="GridCell.Tab.0.right" timestamp="1609744808678">
+    <state width="1878" height="130" key="GridCell.Tab.0.right" timestamp="1609748478605">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="218" key="GridCell.Tab.0.right/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609744808678" />
+    <state width="1878" height="130" key="GridCell.Tab.0.right/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609748478605" />
     <state width="1238" height="218" key="GridCell.Tab.0.right/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1609744187187" />
     <state width="1238" height="218" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1609726405439" />
     <state width="464" height="218" key="GridCell.Tab.0.right/25.23.1255.777@25.23.1255.777" timestamp="1609336581487" />
@@ -390,9 +386,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="149" y="39" key="SettingsEditor/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1607656305895" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1609334737962">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="-1560" y="189" key="Vcs.Push.Dialog.v2" timestamp="1609744837606">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="-1560" y="189" key="Vcs.Push.Dialog.v2/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609744837606" />
     <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1609334737962" />
     <state x="306" y="157" width="667" height="486" key="find.popup" timestamp="1607656206888">
       <screen x="0" y="0" width="1280" height="800" />
