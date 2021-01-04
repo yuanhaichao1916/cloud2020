@@ -2,20 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee2e1c3e-b132-4357-b173-67d931ebf361" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/controller/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/test/java/reflectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/TestDesignModel-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/classes/designModel/controller/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/classes/designModel/controller/Algorithm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/classes/designModel/service/IComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/classes/designModel/service/Impl/AbstractComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/test-classes/reflectTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/PaymentMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/PaymentMain8001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/dao/PaymentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/dao/PaymentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/entities/CommonResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/entities/Payment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/IComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/IComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/controller/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/controller/Algorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/Impl/AbstractComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/Impl/AbstractComparator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,7 +73,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TestDesignModel/src/main/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,7 +86,26 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.validation" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TestDesignModel/src/main/java" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 2 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 2 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="cloud-provider-payment8001" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunManager" selected="Application.A">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -72,7 +113,53 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designModel.controller.A" />
+      <module name="TestDesignModel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designModel.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Shape2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Shape2Test" />
+      <module name="TestDesignModel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShapeTest" />
+      <module name="TestDesignModel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="designModelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designModelTest" />
+      <module name="TestDesignModel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reflectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflectTest" />
+      <module name="TestDesignModel" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,6 +168,13 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="TestDesignModel" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="designModel.App" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,6 +204,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.A" />
+        <item itemvalue="Application.reflectTest" />
+        <item itemvalue="Application.Shape2Test" />
+        <item itemvalue="Application.ShapeTest" />
+        <item itemvalue="Application.designModelTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -134,7 +237,11 @@
       <option name="presentableId" value="Default" />
       <updated>1607612677897</updated>
       <workItem from="1607612682871" duration="4801000" />
-      <workItem from="1607654509084" duration="10831000" />
+      <workItem from="1607654509084" duration="11171000" />
+      <workItem from="1607673203954" duration="3797000" />
+      <workItem from="1608105802654" duration="37000" />
+      <workItem from="1608725121623" duration="1596000" />
+      <workItem from="1609231579838" duration="9885000" />
     </task>
     <task id="LOCAL-00001" summary="feat: pom依赖">
       <created>1607614045862</created>
@@ -150,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607616009395</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: designModel">
+      <created>1609334730980</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609334730980</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +275,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -170,172 +286,142 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: pom依赖" />
     <MESSAGE value="feat: 新建支付启动类" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 新建支付启动类" />
+    <MESSAGE value="feat: designModel" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: designModel" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="65" key="#Inspections" timestamp="1607664085016">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="240" y="65" key="#Inspections/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1607664085016" />
+    <state x="240" y="65" key="#Project_Structure" timestamp="1609232930154">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="65" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1609232930154" />
+    <state x="66" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1609335012187">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="66" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1609335012187" />
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607664107362">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1607664107362" />
-    <state width="1236" height="280" key="GridCell.Tab.0.bottom" timestamp="1607669877690">
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1609334730385">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1236" height="438" key="GridCell.Tab.0.bottom/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1607664180860" />
-    <state width="1236" height="280" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607669877690" />
-    <state width="1236" height="280" key="GridCell.Tab.0.center" timestamp="1607669877687">
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1609334730385" />
+    <state width="427" height="466" key="DebuggerActiveHint" timestamp="1609234793643">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1236" height="438" key="GridCell.Tab.0.center/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1607664180855" />
-    <state width="1236" height="280" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607669877687" />
-    <state width="1236" height="280" key="GridCell.Tab.0.left" timestamp="1607669877686">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="427" height="466" key="DebuggerActiveHint/0.0.1280.800@0.0.1280.800" timestamp="1609234793643" />
+    <state width="1878" height="218" key="GridCell.Tab.0.bottom" timestamp="1609744808680">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1236" height="438" key="GridCell.Tab.0.left/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1607664180852" />
-    <state width="1236" height="280" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607669877686" />
-    <state width="1236" height="280" key="GridCell.Tab.0.right" timestamp="1607669877688">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1878" height="218" key="GridCell.Tab.0.bottom/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609744808680" />
+    <state width="1238" height="218" key="GridCell.Tab.0.bottom/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1609744187192" />
+    <state width="1238" height="218" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1609726405443" />
+    <state width="464" height="218" key="GridCell.Tab.0.bottom/25.23.1255.777@25.23.1255.777" timestamp="1609336581488" />
+    <state width="1878" height="218" key="GridCell.Tab.0.center" timestamp="1609744808677">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1236" height="438" key="GridCell.Tab.0.right/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1607664180857" />
-    <state width="1236" height="280" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607669877688" />
-    <state width="1236" height="280" key="GridCell.Tab.1.bottom" timestamp="1607669877692">
+    <state width="1878" height="218" key="GridCell.Tab.0.center/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609744808677" />
+    <state width="1238" height="218" key="GridCell.Tab.0.center/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1609744187182" />
+    <state width="1238" height="218" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1609726405438" />
+    <state width="464" height="218" key="GridCell.Tab.0.center/25.23.1255.777@25.23.1255.777" timestamp="1609336581486" />
+    <state width="1878" height="218" key="GridCell.Tab.0.left" timestamp="1609744808676">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="218" key="GridCell.Tab.0.left/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609744808676" />
+    <state width="1238" height="218" key="GridCell.Tab.0.left/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1609744187158" />
+    <state width="1238" height="218" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1609726405437" />
+    <state width="464" height="218" key="GridCell.Tab.0.left/25.23.1255.777@25.23.1255.777" timestamp="1609336581484" />
+    <state width="1878" height="218" key="GridCell.Tab.0.right" timestamp="1609744808678">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="218" key="GridCell.Tab.0.right/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609744808678" />
+    <state width="1238" height="218" key="GridCell.Tab.0.right/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1609744187187" />
+    <state width="1238" height="218" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1609726405439" />
+    <state width="464" height="218" key="GridCell.Tab.0.right/25.23.1255.777@25.23.1255.777" timestamp="1609336581487" />
+    <state width="464" height="319" key="GridCell.Tab.1.bottom" timestamp="1609236436853">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1236" height="438" key="GridCell.Tab.1.bottom/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1607664180649" />
-    <state width="1236" height="280" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607669877692" />
-    <state width="1236" height="280" key="GridCell.Tab.1.center" timestamp="1607669877691">
+    <state width="464" height="319" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1609236436853" />
+    <state width="1238" height="45" key="GridCell.Tab.1.bottom/30.23.1250.777@30.23.1250.777" timestamp="1607674601475" />
+    <state width="464" height="319" key="GridCell.Tab.1.center" timestamp="1609236436850">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1236" height="438" key="GridCell.Tab.1.center/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1607664180644" />
-    <state width="1236" height="280" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1607669877691" />
-    <state width="1236" height="280" key="GridCell.Tab.1.left" timestamp="1607669877690">
+    <state width="464" height="319" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1609236436850" />
+    <state width="1238" height="45" key="GridCell.Tab.1.center/30.23.1250.777@30.23.1250.777" timestamp="1607674601472" />
+    <state width="464" height="319" key="GridCell.Tab.1.left" timestamp="1609236436849">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1236" height="438" key="GridCell.Tab.1.left/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1607664180642" />
-    <state width="1236" height="280" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1607669877690" />
-    <state width="1236" height="280" key="GridCell.Tab.1.right" timestamp="1607669877692">
+    <state width="464" height="319" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1609236436849" />
+    <state width="1238" height="45" key="GridCell.Tab.1.left/30.23.1250.777@30.23.1250.777" timestamp="1607674601462" />
+    <state width="464" height="319" key="GridCell.Tab.1.right" timestamp="1609236436852">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1236" height="438" key="GridCell.Tab.1.right/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1607664180646" />
-    <state width="1236" height="280" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1607669877692" />
-    <state width="1236" height="280" key="GridCell.Tab.2.bottom" timestamp="1607669877695">
+    <state width="464" height="319" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1609236436852" />
+    <state width="1238" height="45" key="GridCell.Tab.1.right/30.23.1250.777@30.23.1250.777" timestamp="1607674601473" />
+    <state width="1238" height="202" key="GridCell.Tab.2.bottom" timestamp="1607927687849">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1236" height="438" key="GridCell.Tab.2.bottom/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1607664180660" />
-    <state width="1236" height="280" key="GridCell.Tab.2.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607669877695" />
-    <state width="1236" height="280" key="GridCell.Tab.2.center" timestamp="1607669877694">
+    <state width="1238" height="202" key="GridCell.Tab.2.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607927687849" />
+    <state width="1238" height="202" key="GridCell.Tab.2.center" timestamp="1607927687848">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1236" height="438" key="GridCell.Tab.2.center/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1607664180653" />
-    <state width="1236" height="280" key="GridCell.Tab.2.center/0.0.1280.800@0.0.1280.800" timestamp="1607669877694" />
-    <state width="1236" height="280" key="GridCell.Tab.2.left" timestamp="1607669877693">
+    <state width="1238" height="202" key="GridCell.Tab.2.center/0.0.1280.800@0.0.1280.800" timestamp="1607927687848" />
+    <state width="1238" height="202" key="GridCell.Tab.2.left" timestamp="1607927687847">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1236" height="438" key="GridCell.Tab.2.left/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1607664180651" />
-    <state width="1236" height="280" key="GridCell.Tab.2.left/0.0.1280.800@0.0.1280.800" timestamp="1607669877693" />
-    <state width="1236" height="280" key="GridCell.Tab.2.right" timestamp="1607669877694">
+    <state width="1238" height="202" key="GridCell.Tab.2.left/0.0.1280.800@0.0.1280.800" timestamp="1607927687847" />
+    <state width="1238" height="202" key="GridCell.Tab.2.right" timestamp="1607927687848">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1236" height="438" key="GridCell.Tab.2.right/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1607664180655" />
-    <state width="1236" height="280" key="GridCell.Tab.2.right/0.0.1280.800@0.0.1280.800" timestamp="1607669877694" />
+    <state width="1238" height="202" key="GridCell.Tab.2.right/0.0.1280.800@0.0.1280.800" timestamp="1607927687848" />
     <state x="149" y="39" key="SettingsEditor" timestamp="1607656305895">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="149" y="39" key="SettingsEditor/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1607656305895" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1609334737962">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1609334737962" />
     <state x="306" y="157" width="667" height="486" key="find.popup" timestamp="1607656206888">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="306" y="157" width="667" height="486" key="find.popup/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1607656206888" />
+    <state x="34" y="97" key="new project wizard" timestamp="1609231610568">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="34" y="97" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1609231610568" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>cloud-provider-payment8001</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TestDesignModel/src/test/java/ShapeTest.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/Impl/ShapeProc.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/Impl/Rect.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

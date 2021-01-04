@@ -1,6 +1,6 @@
 package designModel.service.Impl;
 
-import designModel.IComparator;
+import designModel.service.IComparator;
 
 public class AbstractComparator<T> implements IComparator {
     @Override

@@ -1,6 +1,6 @@
 package designModel.controller;
 
-import designModel.IComparator;
+import designModel.service.IComparator;
 
 public class Algorithm<T> {
     IComparator<T> cmp; //比较器，是AbstractComparator的子类

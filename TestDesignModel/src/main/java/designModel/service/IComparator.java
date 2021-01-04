@@ -1,4 +1,4 @@
-package designModel;
+package designModel.service;
 
 public interface IComparator<T> {
     boolean equal(T x, T y);

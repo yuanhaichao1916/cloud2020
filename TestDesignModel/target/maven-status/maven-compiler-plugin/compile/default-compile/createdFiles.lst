@@ -1,0 +1,17 @@
+designModel/controller/A.class
+designModel/App.class
+designModel/service/Ishape.class
+designModel/service/ILess.class
+designModel/service/Impl/Circle.class
+designModel/service/Impl/Computer.class
+designModel/service/Impl/Circle2.class
+designModel/controller/Algo.class
+designModel/service/IComparator.class
+designModel/controller/Algorithm.class
+designModel/service/Impl/ShapeProc.class
+designModel/service/Impl/AbstractComparator.class
+designModel/service/Impl/InteLess.class
+designModel/service/Impl/StudentLess.class
+designModel/service/Impl/Rect.class
+designModel/entities/Student.class
+designModel/service/IShape2.class
