@@ -1,12 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee2e1c3e-b132-4357-b173-67d931ebf361" name="Default" comment="feat: designModel">
-      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/test/java/Shape3Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/test-classes/Shape3Test.class" afterDir="false" />
+    <list default="true" id="ee2e1c3e-b132-4357-b173-67d931ebf361" name="Default" comment="feat: 反射">
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/controller/CarSimpleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/controller/LowFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/controller/MidFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/controller/TopFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/AbstractFactory1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/AbstractFactory2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/AbstractImgRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/AbstractTextRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/IBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/ICar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/IRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/Impl/factory/DnBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/Impl/factory/GBKRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/Impl/factory/ImageInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/Impl/factory/ImageRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/Impl/factory/LowCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/Impl/factory/MidBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/Impl/factory/MidCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/Impl/factory/TextRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/Impl/factory/TopCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/Impl/factory/UpBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/test/java/EasyCarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/src/test/java/FactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/classes/designModel/controller/CarSimpleFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/classes/designModel/service/ICar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/classes/designModel/service/Impl/LowCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/classes/designModel/service/Impl/MidCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/classes/designModel/service/Impl/TopCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDesignModel/target/test-classes/EasyCarTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/controller/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/controller/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestDesignModel/target/classes/designModel/controller/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/TestDesignModel/target/classes/designModel/controller/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/Impl/AbstractComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestDesignModel/src/main/java/designModel/service/Impl/factory/AbstractComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestDesignModel/target/test-classes/Shape3Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/TestDesignModel/target/test-classes/Shape3Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +103,11 @@
     <property name="settings.editor.selected.configurable" value="project.validation" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="designModel.service" />
+      <recent name="designModel.service.Impl" />
+      <recent name="designModel.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/TestDesignModel/src/main/java" />
     </key>
@@ -93,7 +126,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.Shape3Test">
+  <component name="RunManager" selected="Application.EasyCarTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -115,6 +148,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EasyCarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EasyCarTest" />
+      <module name="TestDesignModel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Shape2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Shape2Test" />
       <module name="TestDesignModel" />
@@ -125,14 +166,6 @@
     </configuration>
     <configuration name="Shape3Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Shape3Test" />
-      <module name="TestDesignModel" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShapeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ShapeTest" />
       <module name="TestDesignModel" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -194,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EasyCarTest" />
         <item itemvalue="Application.Shape3Test" />
         <item itemvalue="Application.A" />
         <item itemvalue="Application.reflectTest" />
         <item itemvalue="Application.Shape2Test" />
-        <item itemvalue="Application.ShapeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +262,7 @@
       <workItem from="1607673203954" duration="3797000" />
       <workItem from="1608105802654" duration="37000" />
       <workItem from="1608725121623" duration="1596000" />
-      <workItem from="1609231579838" duration="14010000" />
+      <workItem from="1609231579838" duration="22823000" />
     </task>
     <task id="LOCAL-00001" summary="feat: pom依赖">
       <created>1607614045862</created>
@@ -259,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609744829321</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: 反射">
+      <created>1609752284308</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609752284308</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +322,8 @@
     <MESSAGE value="feat: pom依赖" />
     <MESSAGE value="feat: 新建支付启动类" />
     <MESSAGE value="feat: designModel" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: designModel" />
+    <MESSAGE value="feat: 反射" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 反射" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="65" key="#Inspections" timestamp="1607664085016">
@@ -293,48 +334,49 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="240" y="65" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1609232930154" />
-    <state x="66" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1609335012187">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="-1821" y="157" key="#com.intellij.ide.util.MemberChooser" timestamp="1609826376900">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="-1821" y="157" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609826376900" />
     <state x="66" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1609335012187" />
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607664107362">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1607664107362" />
-    <state x="-1465" y="0" key="CommitChangelistDialog2" timestamp="1609744828840">
+    <state x="-1465" y="0" key="CommitChangelistDialog2" timestamp="1609752283469">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1465" y="0" key="CommitChangelistDialog2/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609744828840" />
+    <state x="-1465" y="0" key="CommitChangelistDialog2/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609752283469" />
     <state x="303" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1609334730385" />
     <state width="427" height="466" key="DebuggerActiveHint" timestamp="1609234793643">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="427" height="466" key="DebuggerActiveHint/0.0.1280.800@0.0.1280.800" timestamp="1609234793643" />
-    <state width="1878" height="130" key="GridCell.Tab.0.bottom" timestamp="1609748478607">
+    <state width="1878" height="130" key="GridCell.Tab.0.bottom" timestamp="1609757726479">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="130" key="GridCell.Tab.0.bottom/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609748478607" />
+    <state width="1878" height="130" key="GridCell.Tab.0.bottom/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609757726479" />
     <state width="1238" height="218" key="GridCell.Tab.0.bottom/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1609744187192" />
     <state width="1238" height="218" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1609726405443" />
     <state width="464" height="218" key="GridCell.Tab.0.bottom/25.23.1255.777@25.23.1255.777" timestamp="1609336581488" />
-    <state width="1878" height="130" key="GridCell.Tab.0.center" timestamp="1609748478604">
+    <state width="1878" height="130" key="GridCell.Tab.0.center" timestamp="1609757726476">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="130" key="GridCell.Tab.0.center/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609748478604" />
+    <state width="1878" height="130" key="GridCell.Tab.0.center/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609757726476" />
     <state width="1238" height="218" key="GridCell.Tab.0.center/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1609744187182" />
     <state width="1238" height="218" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1609726405438" />
     <state width="464" height="218" key="GridCell.Tab.0.center/25.23.1255.777@25.23.1255.777" timestamp="1609336581486" />
-    <state width="1878" height="130" key="GridCell.Tab.0.left" timestamp="1609748478602">
+    <state width="1878" height="130" key="GridCell.Tab.0.left" timestamp="1609757726475">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="130" key="GridCell.Tab.0.left/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609748478602" />
+    <state width="1878" height="130" key="GridCell.Tab.0.left/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609757726475" />
     <state width="1238" height="218" key="GridCell.Tab.0.left/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1609744187158" />
     <state width="1238" height="218" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1609726405437" />
     <state width="464" height="218" key="GridCell.Tab.0.left/25.23.1255.777@25.23.1255.777" timestamp="1609336581484" />
-    <state width="1878" height="130" key="GridCell.Tab.0.right" timestamp="1609748478605">
+    <state width="1878" height="130" key="GridCell.Tab.0.right" timestamp="1609757726477">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="130" key="GridCell.Tab.0.right/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609748478605" />
+    <state width="1878" height="130" key="GridCell.Tab.0.right/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609757726477" />
     <state width="1238" height="218" key="GridCell.Tab.0.right/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1609744187187" />
     <state width="1238" height="218" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1609726405439" />
     <state width="464" height="218" key="GridCell.Tab.0.right/25.23.1255.777@25.23.1255.777" timestamp="1609336581487" />
@@ -386,10 +428,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="149" y="39" key="SettingsEditor/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1607656305895" />
-    <state x="-1560" y="189" key="Vcs.Push.Dialog.v2" timestamp="1609744837606">
+    <state x="-1560" y="189" key="Vcs.Push.Dialog.v2" timestamp="1609752299284">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1560" y="189" key="Vcs.Push.Dialog.v2/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609744837606" />
+    <state x="-1560" y="189" key="Vcs.Push.Dialog.v2/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609752299284" />
     <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1609334737962" />
     <state x="306" y="157" width="667" height="486" key="find.popup" timestamp="1607656206888">
       <screen x="0" y="0" width="1280" height="800" />

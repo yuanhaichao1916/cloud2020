@@ -1,4 +1,4 @@
-package designModel.service.Impl;
+package designModel.service.Impl.factory;
 
 import designModel.service.IComparator;
 
