@@ -7,6 +7,10 @@ public class Student {
     public Student() {
     }
 
+    public Student(int grade) {
+        this.grade = grade;
+    }
+
     public Student(String name, int grade) {
         this.name = name;
         this.grade = grade;
