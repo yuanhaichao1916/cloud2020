@@ -5,10 +5,12 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
+import java.util.stream.Collectors;
 
 /**
  *  Java 8 内置的四大核心函数式接口
@@ -90,5 +92,17 @@ public class TestLambda {
     }
     public void happy(double money, Consumer<Double> con){
         con.accept(money);
+    }
+
+
+
+    @Test
+    public void test(){
+
+        AtomicInteger a = new AtomicInteger(8);
+        for (int i = 0; i < 2; i++) {
+            a.incrementAndGet();
+        }
+        System.out.println(a);
     }
 }

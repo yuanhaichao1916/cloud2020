@@ -1,6 +1,12 @@
 package designModel.service.juc;
 
 import ch.qos.logback.core.pattern.FormatInfo;
+import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * 模拟cas算法
@@ -45,4 +51,5 @@ class CompareAndSwap{
     public synchronized boolean compareAndSet(int expecteValue, int newValue){
         return expecteValue == compareAndSwap(expecteValue,newValue);
     }
+
 }
