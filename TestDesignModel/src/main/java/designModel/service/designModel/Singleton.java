@@ -1,5 +1,11 @@
 package designModel.service.designModel;
 
+import org.junit.Test;
+import sun.jvmstat.perfdata.monitor.PerfStringVariableMonitor;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Singleton {
     private volatile static Singleton uniqueInstance;
 
@@ -16,4 +22,6 @@ public class Singleton {
         }
         return uniqueInstance;
     }
+
+
 }

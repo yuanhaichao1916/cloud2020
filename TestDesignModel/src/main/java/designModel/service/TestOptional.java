@@ -3,6 +3,8 @@ package designModel.service;
 import designModel.entities.Student;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 public class TestOptional {
@@ -38,6 +40,22 @@ public class TestOptional {
         Optional<String> s = op.flatMap((e) -> Optional.ofNullable(e.getName()));
         System.out.println(s.get());
 
+    }
+
+    @Test
+    public void test11(){
+        List long1  = new ArrayList<>();
+        List iter  = new ArrayList<>();
+        List booleana  = new ArrayList<>();
+        long1.add((long)10);
+        long1.add((long)20);
+        iter.add(10);
+        iter.add(20);
+        booleana.add(true);
+        booleana.add(false);
+
+        System.out.println(long1.getClass() == iter.getClass());
+        System.out.println(long1.getClass() == booleana.getClass());
     }
 
 }
