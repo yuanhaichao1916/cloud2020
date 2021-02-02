@@ -58,4 +58,31 @@ public class TestOptional {
         System.out.println(long1.getClass() == booleana.getClass());
     }
 
+    @Test
+    public void numTest(){
+        int[] nums = new int[]{1,2,3,4,5,1,2,3};
+        // nums 是以“引用”方式传递的。也就是说，不对实参做任何拷贝
+        int len = removeDuplicates(nums);
+
+        // 在函数里修改输入数组对于调用者是可见的。
+        // 根据你的函数返回的长度, 它会打印出数组中该长度范围内的所有元素。
+        for (int i = 0; i < len; i++) {
+        System.out.println(nums[i]);
+        }
+
+    }
+
+    public int removeDuplicates(int[] nums) {
+        if (nums.length == 0) return 0;
+        int i = 0;
+        for (int j = 1; j < nums.length; j++) {
+            if (nums[j] != nums[i]) {
+                i++;
+                nums[i] = nums[j];
+            }
+        }
+        return i + 1;
+    }
+
+
 }

@@ -51,5 +51,4 @@ class CompareAndSwap{
     public synchronized boolean compareAndSet(int expecteValue, int newValue){
         return expecteValue == compareAndSwap(expecteValue,newValue);
     }
-
 }
